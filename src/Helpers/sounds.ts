@@ -15,13 +15,13 @@ export type KeyConfig = {
 };
 
 export const keyConfigs: KeyConfig[] = [
-  { id: "clap", key: "a", sound: boom },
-  { id: "hi_hat", key: "s", sound: clap },
-  { id: "kick", key: "d", sound: hi_hat },
-  { id: "open_hat", key: "f", sound: kick },
-  { id: "boom", key: "g", sound: open_hat },
+  { id: "boom", key: "a", sound: boom },
+  { id: "clap", key: "s", sound: clap },
+  { id: "hi_hat", key: "d", sound: hi_hat },
+  { id: "kick", key: "f", sound: kick },
+  { id: "open_hat", key: "g", sound: open_hat },
   { id: "ride", key: "h", sound: ride },
   { id: "snare", key: "j", sound: snare },
-  { id: "tom", key: "k", sound: tink },
-  { id: "tink", key: "l", sound: tom },
+  { id: "tink", key: "k", sound: tink },
+  { id: "tom", key: "l", sound: tom },
 ];
